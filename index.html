@@ -19,6 +19,22 @@
     <title>Carousel Challenge</title>
   </head>
   <body>
+    <style>
+      .carousel-item.active,
+      .carousel-item-next,
+      .carousel-item-prev {
+        display: flex;
+      }
+
+      .carousel-item {
+        height: 32rem;
+        background-color: grey;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
     <nav class="navbar navbar-light bg-dark text-white justify-content-between">
       <div
         class="navbar-nav"
@@ -47,6 +63,19 @@
         </button>
       </form>
     </nav>
+
+    <div class="carousel-item active">
+      <div class="container">
+        <h1>Example Headline</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          fuga harum illum, rem tempora amet. Assumenda provident nulla veniam
+          aliquid eius quas incidunt unde iste rem laborum! Voluptate,
+          dignissimos cumque!
+        </p>
+        <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
