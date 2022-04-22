@@ -34,6 +34,26 @@
         justify-content: center;
         align-items: center;
       }
+
+      .card {
+        display: flex;
+        justify-content: column;
+        align-items: center;
+        padding: 2em 0;
+        border: none;
+      }
+
+      .card > img {
+        max-width: 80%;
+        border-radius: 50%;
+      }
+
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
     </style>
     <nav class="navbar navbar-light bg-dark text-white justify-content-between">
       <div
@@ -130,6 +150,59 @@
         <span class="sr-only">Previous</span>
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
       </a>
+    </div>
+
+    <div class="container-fluid" style="padding: 5rem 5rem">
+      <div class="card-deck">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./placeholder.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text" style="text-align: center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-lg btn-secondary">View details >></a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./placeholder.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text" style="text-align: center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-lg btn-secondary">View details >></a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./placeholder.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text" style="text-align: center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-lg btn-secondary">View details >></a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
