@@ -64,17 +64,72 @@
       </form>
     </nav>
 
-    <div class="carousel-item active">
-      <div class="container">
-        <h1>Example Headline</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          fuga harum illum, rem tempora amet. Assumenda provident nulla veniam
-          aliquid eius quas incidunt unde iste rem laborum! Voluptate,
-          dignissimos cumque!
-        </p>
-        <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
+    <div id="carousel-container" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carousel-container"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-container" data-slide-to="1"></li>
+        <li data-target="#carousel-container" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <h1>Example Headline</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae fuga harum illum, rem tempora amet. Assumenda provident
+              nulla veniam aliquid eius quas incidunt unde iste rem laborum!
+              Voluptate, dignissimos cumque!
+            </p>
+            <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <h1>Example Headline</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae fuga harum illum, rem tempora amet. Assumenda provident
+              nulla veniam aliquid eius quas incidunt unde iste rem laborum!
+              Voluptate, dignissimos cumque!
+            </p>
+            <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <h1>Example Headline</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae fuga harum illum, rem tempora amet. Assumenda provident
+              nulla veniam aliquid eius quas incidunt unde iste rem laborum!
+              Voluptate, dignissimos cumque!
+            </p>
+            <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
+          </div>
+        </div>
       </div>
+      <a
+        href="#carousel-container"
+        class="carousel-control-prev"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="sr-only">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a
+        href="#carousel-container"
+        class="carousel-control-next"
+        role="button"
+        data-slide="next"
+      >
+        <span class="sr-only">Previous</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
     </div>
 
     <!-- Optional JavaScript -->
