@@ -35,6 +35,10 @@
         align-items: center;
       }
 
+      .container-fluid {
+        padding: 2em 5rem 0 5em;
+      }
+
       .card {
         display: flex;
         justify-content: column;
@@ -46,6 +50,10 @@
       .card > img {
         max-width: 80%;
         border-radius: 50%;
+      }
+
+      img {
+        object-fit: cover;
       }
 
       .card-body {
@@ -152,12 +160,15 @@
       </a>
     </div>
 
-    <div class="container-fluid" style="padding: 5rem 5rem">
-      <div class="card-deck">
+    <div class="container-fluid" style="padding: 2em 5rem 0 5em">
+      <div
+        class="card-deck"
+        style="border-bottom: 1px solid rgb(199, 192, 192)"
+      >
         <div class="card">
           <img
             class="card-img-top"
-            src="./placeholder.png"
+            src="./images/placeholder.png"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -173,7 +184,7 @@
         <div class="card">
           <img
             class="card-img-top"
-            src="./placeholder.png"
+            src="./images/placeholder.png"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -189,7 +200,7 @@
         <div class="card">
           <img
             class="card-img-top"
-            src="./placeholder.png"
+            src="./images/placeholder.png"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -204,7 +215,95 @@
         </div>
       </div>
     </div>
-
+    <div class="container-fluid">
+      <div
+        class="card"
+        style="
+          flex-direction: row;
+          border-bottom: 1px solid rgb(199, 192, 192);
+          border-radius: 0;
+          padding-bottom: 4em;
+        "
+      >
+        <div class="col-md-8">
+          <h1 class="card-title" style="font-size: 3vw">
+            First featurette heading. It will blow your mind
+          </h1>
+          <p style="font-size: 2vw">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+            recusandae, dolorum officia ullam odio esse eos molestias voluptates
+            suscipit culpa consequuntur voluptatem, nesciunt rem, necessitatibus
+            asperiores vel vitae. Vitae, necessitatibus?
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div
+        class="card"
+        style="
+          flex-direction: row;
+          border-bottom: 1px solid rgb(199, 192, 192);
+          border-radius: 0;
+          padding-bottom: 4em;
+        "
+      >
+        <div class="col-md-4">
+          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-8">
+          <h1 class="card-title" style="font-size: 3vw">
+            Oh yeah, Its that good. See it for yourself
+          </h1>
+          <p style="font-size: 2vw">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+            recusandae, dolorum officia ullam odio esse eos molestias voluptates
+            suscipit culpa consequuntur voluptatem, nesciunt rem, necessitatibus
+            asperiores vel vitae. Vitae, necessitatibus?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div
+        class="card"
+        style="
+          flex-direction: row;
+          border-bottom: 1px solid rgb(199, 192, 192);
+          border-radius: 0;
+          padding-bottom: 4em;
+        "
+      >
+        <div class="col-md-8">
+          <h1 class="card-title" style="font-size: 3vw">
+            And lastly this one. Checkmate
+          </h1>
+          <p style="font-size: 2vw">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+            recusandae, dolorum officia ullam odio esse eos molestias voluptates
+            suscipit culpa consequuntur voluptatem, nesciunt rem, necessitatibus
+            asperiores vel vitae. Vitae, necessitatibus?
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid pb-4"
+      style="display: flex; justify-content: space-between"
+    >
+      <div style="display: flex; gap: 0.5em">
+        <p>2017-2019 Company, inc.</p>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+      </div>
+      <a href="#">Back to the Top</a>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
