@@ -33,6 +33,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-position: center;
+        background-size: cover;
       }
 
       .container-fluid {
@@ -49,11 +51,8 @@
 
       .card > img {
         max-width: 80%;
+        max-height: auto;
         border-radius: 50%;
-      }
-
-      img {
-        object-fit: cover;
       }
 
       .card-body {
@@ -103,7 +102,7 @@
         <li data-target="#carousel-container" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" style="background-image: url(./images/slide1.avif)">
           <div class="container">
             <h1>Example Headline</h1>
             <p>
@@ -115,7 +114,7 @@
             <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="background-image: url(./images/slideé.avif)"">
           <div class="container">
             <h1>Example Headline</h1>
             <p>
@@ -127,9 +126,9 @@
             <a href="#" class="btn btn-lg btn-primary">Sign up Today!</a>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="background-image: url(./images/slide3.avif)">
           <div class="container">
-            <h1>Example Headline</h1>
+            <h1>Example Headline</h1>"
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae fuga harum illum, rem tempora amet. Assumenda provident
@@ -237,7 +236,7 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+          <img src="./images/card1.avif" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -252,7 +251,7 @@
         "
       >
         <div class="col-md-4">
-          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+          <img src="./images/card2.avif" alt="" class="img-fluid" />
         </div>
         <div class="col-md-8">
           <h1 class="card-title" style="font-size: 3vw">
@@ -289,7 +288,7 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img src="./images/placeholder.png" alt="" class="img-fluid" />
+          <img src="./images/card3.avif" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
